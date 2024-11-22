@@ -8,9 +8,9 @@ const isPrime = (num) => {
   
   exports.handlePost = (req, res) => {
     const { data, file_b64 } = req.body;
-    const userId = "your_name_dob";
-    const email = "your_email@example.com";
-    const rollNumber = "your_roll_number";
+    const userId = "pratiksingh27";
+    const email = "pratik27march@gmail.com";
+    const rollNumber = "0101IT211038";
   
     const numbers = [];
     const alphabets = [];

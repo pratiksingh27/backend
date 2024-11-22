@@ -10,7 +10,7 @@ const app = express();
 // Middleware
 //work on routing
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:5173', 
+  origin: process.env.FRONTEND_URL || 'https://frontend-phi-six-79.vercel.app' || 'http://localhost:5173', 
   methods: ['GET', 'POST'],
 }));
 app.use(bodyParser.json());
